@@ -1,0 +1,14 @@
+.bloc1{
+
+    outline: 1px solid black;
+    float: left;
+    width: 40%;
+    
+}
+.bloc2{
+
+    outline: 1px solid black;
+    float: left;
+    width: 60%;
+    
+}

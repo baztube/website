@@ -1,0 +1,260 @@
+.percentage-holder {
+
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    margin-top: 16px;
+
+
+}
+
+.percentage {
+
+    width: 100%;
+
+}
+
+.tests {
+
+    height: 16px;
+
+}
+
+body {
+
+    margin: 0px;
+    padding: 0%;
+    width: 100vw;
+    max-width: 100%;
+    overflow: overlay;
+    overflow-x: hidden;
+    background-image: url(./Words/Images/paper.png);
+
+}
+
+.main {
+
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 0px;
+    width: 98vw;
+    height: 100vh;
+
+}
+
+.textbox1 {
+
+    width: 39vw;
+    display: inline;
+
+}
+
+.imagebox1 {
+
+    width: 59vw;
+    display: inline;
+
+}
+
+.textbox {
+
+    text-align: center;
+    float: left;
+    height: 100vh;
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    top: 25%;
+
+}
+
+.imagebox {
+
+
+    float: left;
+    height: 100vh;
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    top: 25%;
+
+}
+
+.title-desc {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20vh;
+    color: transparent;
+
+}
+
+.title-desc2 {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6vw;
+    color: transparent;
+
+}
+
+.title {
+
+    word-spacing: 0px;
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    height: 20vh;
+    padding: 16px;
+
+}
+
+
+.word {
+
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    height: 48px;
+
+}
+
+.text {
+
+    position: relative;
+    text-align: center;
+
+}
+
+.word-desc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    color: transparent;
+}
+
+.word-holder {
+
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+
+}
+
+.zspolackova {
+
+    font-size: 32px;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.W3Schools {
+
+    height: 32px;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.email-link {
+
+    height: 32px;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.Instagram {
+
+    height: 32px;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.W3Schools-w {
+
+    transform: translate(0px, -7px);
+
+}
+
+.image {
+
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.image2 {
+
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.image3 {
+
+    height: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.navigation {
+
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+    margin-top: 5px;
+    background-color: green;
+    border: 2px solid #4CAF50;
+    visibility: hidden;
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .textbox,
+    .imagebox {
+        width: 100%;
+        height: 50%;
+        top: 0%;
+    }
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: transparent;
+    background: #00000066;
+}
+
+::selection {
+    color: transparent;
+    background: #00000066;
+}
